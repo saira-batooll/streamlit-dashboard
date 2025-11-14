@@ -4,7 +4,7 @@ import plotly.express as px
 import pandas as pd
 
 # Load dataset (Make sure to upload or link your dataset)
-data = pd.read_csv('path_to_your_dataset.csv')
+data = pd.read_csv('Global_Health_And_Disease_Burden_2024.csv')
 
 # Example plot: Create a scatter plot for 'Healthcare Spending vs Life Expectancy'
 fig1 = px.scatter(data, x='Healthcare_Spending_Percent_GDP', y='Life_Expectancy_2023', 
